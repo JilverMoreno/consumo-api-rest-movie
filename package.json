@@ -1,0 +1,19 @@
+{
+  "name": "consumo-api-rest-movie",
+  "version": "1.0.0",
+  "description": "Practicando consumo de API REST con javascript",
+  "main": "index html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jilver1984/consumo-api-rest-movie.git"
+  },
+  "author": "JilverMoreno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jilver1984/consumo-api-rest-movie/issues"
+  },
+  "homepage": "https://github.com/jilver1984/consumo-api-rest-movie#readme"
+}
