@@ -8,8 +8,115 @@
     <title>Movies</title>
 </head>
 <body>
-    <h1>Movies</h1>
+    <header>
+         <h1>Movies</h1>
+         <form id="form">
+            <input type="text" id="search" placeholder="Search" class="search" />
+         </form>
 
+    </header>
+    
+
+    <section id="trendingPreview" class="trendingPreview-container">
+        <div class="trendingPreview-header">
+            <h2 class="trendingPreview-tittle">Tendencias</h2>
+            <button class="trendingPreview-bnt">Ver mas</button>
+        </div>
+
+        <article class="trndingPreview-movieList">
+            <div class="movie-container">
+                <img src="./styles/img.Transformer/bumblebee.jpg" alt="bumblebee">
+            </div>
+
+            <div class="movie-container">
+                <img src="./styles/img.Transformer/optimus prime.jpg" alt="bumblebee">
+            </div>
+
+            <div class="movie-container">
+                <img src="./styles/img.Transformer/megatron.jpg" alt="bumblebee">
+            </div>
+        </article>
+    </section>
+
+    <section id="categoriesPreview" class="categoriesPreview-container">
+        <h2 class="categoriesPreview-title">Categorias</h2>
+
+        <article class="categoriesPreview-list">
+            <div class="category-container">
+                <h3 id="id28" class="category-title">Romance</h3>
+            </div>
+
+            <div class="category-container">
+                <h3 id="id16" class="category-title">Drama</h3>
+            </div>
+
+            <div class="category-container">
+                <h3 id="id14" class="category-title">Accion</h3>
+            </div>
+        </article>
+    </section>
+
+    <section id="genericList" class="genericList-container inactive">
+        <div class="movie-container">
+            <img src="./styles/img.Transformer/galvatron.jpg" class="movie-img" alt="nombre pelicula">
+
+        </div>
+
+        <div class="movie-container">
+            <img src="./styles/img.Transformer/galvatron.jpg" class="movie-img" alt="nombre pelicula">
+
+        </div>
+
+        <div class="movie-container">
+            <img src="./styles/img.Transformer/galvatron.jpg" class="movie-img" alt="nombre pelicula">
+
+        </div>
+    </section>
+
+    <section id="movieDetail" class="movieDetal-container inactive">
+        <h1 class="movieDetail-tittle">Transformers</h1>
+        <span class="movieDetail-score">7.6</span>
+        <p class="movieDetail-description">
+            La mejor saga de la histria entre los autobots y los decepticon
+        </p>
+
+        <article class="categories-list">
+            <div class="category-container">
+                <h3 id="id28" class="category-tittle">Romance</h3>
+            </div>
+
+            <div class="category-container">
+                <h3 id="id16" class="category-tittle">Drama</h3>
+            </div>
+
+            <div class="category-container">
+                <h3 id="id28" class="category-tittle">Accion</h3>
+            </div>
+        </article>
+
+        <article class="relatedMovies-container">
+            <h2 class="relatedMovies-tittle">Peliculas similares</h2>
+
+            <div class="relatedMovies-scrollContainer">
+                <div class="movie-container">
+                    <img src="./styles/img.Transformer/optimus prime.jpg" alt="nombre de la pelicula">
+                </div>
+
+                <div class="movie-container">
+                    <img src="./styles/img.Transformer/optimus prime.jpg" alt="nombre de la pelicula">
+                </div>
+
+                <div class="movie-container">
+                    <img src="./styles/img.Transformer/optimus prime.jpg" alt="nombre de la pelicula">
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+    <footer>La mejor saga de la historia</footer>
+
+    <script src="./src/secret.js"></script>
     <script src="./src/main.js"></script>
 </body>
 </html>
